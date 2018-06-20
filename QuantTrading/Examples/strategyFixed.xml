@@ -1,0 +1,15 @@
+<Config>
+	<Common>
+		<TimeZone>GMT</TimeZone>
+		<StartTime>00:30:00</StartTime>
+		<EndTime>23:00:00</EndTime>
+		<Calendar>ICE</Calendar>
+	</Common>
+	<Model>12</Model>
+	<Quantity>10</Quantity>
+	<BlockOrder>
+		<UnitSize>1</UnitSize>
+		<MaxBlockSize>2</MaxBlockSize>
+		<MaxNumberOfOrders>5</MaxNumberOfOrders>
+	</BlockOrder>
+</Config>

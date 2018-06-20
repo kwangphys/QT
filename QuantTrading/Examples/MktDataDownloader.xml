@@ -1,0 +1,24 @@
+<Config>
+	<Common>
+		<TimeZone>GMT</TimeZone>
+		<StartTime>08:30:00</StartTime>
+		<EndTime>19:00:00</EndTime>
+		<Calendar>ICE</Calendar>
+		<BarType>trades</BarType>
+	</Common>
+	<BarLength>60</BarLength>
+	<Source>IB</Source>
+	<DurationUnit>D</DurationUnit>
+	<Overwrite>True</Overwrite>
+	<RetryInterval>600</RetryInterval>
+	<RetryTimes>5</RetryTimes>
+	<MaxUnitsPerTry>7</MaxUnitsPerTry>
+	<OnlyRegularHour>False</OnlyRegularHour>
+	<Jobs>
+		<Job>
+			<ID>-1</ID>
+			<EndDate>Today</EndDate>
+			<Duration>7</Duration>			
+		</Job>
+	</Jobs>
+</Config>

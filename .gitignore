@@ -1,0 +1,15 @@
+QuantTrading/x64/*
+QuantTrading/x86/*
+QuantTrading/DBAccess/obj/*
+QuantTrading/TwsAPI/obj/*
+QuantTrading/IBStrategy/obj/*
+*.suo
+publish/*/*/src/QuantTrading/x64/*
+publish/*/*/src/QuantTrading/x86/*
+publish/*/*/src/QuantTrading/DBAccess/obj/*
+publish/*/*/src/QuantTrading/TwsAPI/obj/*
+publish/*/*/src/QuantTrading/IBStrategy/obj/*
+*.cache
+QuantTrading/Test/obj/Debug/Test.csproj.FileListAbsolute.txt
+*.pyc
+*.force

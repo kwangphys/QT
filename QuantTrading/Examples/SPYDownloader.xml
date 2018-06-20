@@ -1,0 +1,25 @@
+<Config>
+	<Common>
+		<TimeZone>EST</TimeZone>
+		<StartTime>09:30:00</StartTime>
+		<EndTime>16:00:00</EndTime>
+		<Calendar>NYSE</Calendar>
+		<BarType>TRADES</BarType>
+	</Common>
+	<BarLength>5</BarLength>
+	<Source>IB</Source>
+	<DurationUnit>S</DurationUnit>
+	<Overwrite>True</Overwrite>
+	<RetryInterval>600</RetryInterval>
+	<RetryTimes>5</RetryTimes>
+	<MaxUnitsPerTry>7200</MaxUnitsPerTry>
+	<OnlyRegularHour>True</OnlyRegularHour>
+	<UseCalendar>True</UseCalendar>
+	<Jobs>
+		<Job> 
+			<ID>756733</ID> <!--SPY-->
+			<EndDate>Today</EndDate>
+			<Duration>17280000</Duration>			
+		</Job>
+	</Jobs>
+</Config>

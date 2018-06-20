@@ -1,0 +1,12 @@
+<Parameters>
+	<Asset>-1</Asset>
+	<EntryStartTime>2:00:00</EntryStartTime>
+	<EntryEndTime>11:00:00</EntryEndTime>
+	<ExitStartTime>2:00:00</ExitStartTime>
+	<ExitEndTime>19:30:00</ExitEndTime>
+	<Expiry>24:00:00</Expiry>
+	<UseClose>False</UseClose>
+	<RefCloseTime>19:30:00</RefCloseTime>
+	<TrendOrReversion>Trend</TrendOrReversion>
+	<Side>Both</Side>
+</Parameters>

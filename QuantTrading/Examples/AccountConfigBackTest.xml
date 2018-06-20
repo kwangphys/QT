@@ -1,0 +1,17 @@
+<Config>
+	<Server>STARRYNIGHT\QTDB</Server>
+	<Database>UAT_TEST</Database>
+	<EngineType>Backtest</EngineType>
+	<Verbose>False</Verbose>
+	<BacktestConfig>
+		<Account>ABC</Account>
+		<StartDate>2016-11-01</StartDate>
+		<EndDate>2016-11-06</EndDate>
+		<MarketDataSource>IB</MarketDataSource>
+		<BarType>trades</BarType>
+		<MinBarSize>60</MinBarSize>
+		<Slippage>1</Slippage>
+		<LimitIncludeTouch>True</LimitIncludeTouch>
+		<ReportFolder>E:\Backtest\20161108</ReportFolder>
+	</BacktestConfig>
+</Config>

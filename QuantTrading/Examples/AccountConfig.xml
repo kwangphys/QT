@@ -1,0 +1,27 @@
+<Config>
+	<Server>STARRYNIGHT\QTDB</Server>
+	<Database>UAT</Database>
+	<EngineType>TWS</EngineType>
+	<Verbose>True</Verbose>
+	<IBConfig>
+		<IP>127.0.0.1</IP>
+		<Port>7496</Port>
+		<ExtraAuth>False</ExtraAuth>
+	</IBConfig>
+	<Email>
+		<SMTP>smtp.gmail.com</SMTP>
+		<Port>587</Port>
+		<Address>myemail@gmail.com</Address>
+		<Password>mypassword</Password>
+		<EnableSSL>True</EnableSSL>
+	</Email>
+	<PnLReportSchedule>
+		<Time>15:30:00</Time>
+		<Time>16:00:00</Time>
+		<Time>16:30:00</Time>
+		<Time>17:00:00</Time>
+		<Time>17:30:00</Time>
+		<Time>18:00:00</Time>
+		<Time>18:30:00</Time>
+	</PnLReportSchedule>
+</Config>
